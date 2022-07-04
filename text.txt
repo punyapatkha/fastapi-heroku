@@ -1,0 +1,9 @@
+pip install fastapi
+pip install uvicorn
+
+add "C:\Users\User\AppData\Roaming\Python\Python36\Scripts" to path 
+
+python -m uvicorn main:app --reload
+or
+uvicorn --port 5000 --host 127.0.0.1 main:app --reload
+
